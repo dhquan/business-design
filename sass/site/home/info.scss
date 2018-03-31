@@ -1,0 +1,154 @@
+.section--info {
+	width: 100%;
+	height: 610px;
+}
+.section--info__left {
+	width: 50%;
+	height: 600px;
+	float: left;
+	h3 {
+		font-family: Poppins;
+		font-weight: 600;
+		line-height: 47px;
+		font-size: 24px;
+		letter-spacing: 0.05em;
+		color: #1A75EF;
+		margin-top: 106px;
+		text-transform: uppercase;
+	}
+	p {
+		font-family: Poppins;
+		line-height: 26px;
+		font-size: 14px;
+		color: #808285;
+		margin-top: 7px;
+	}
+	.info-left-inner {
+		width: 100%;
+		height: 300px;
+	}
+	.info-left__city {
+		float: left;
+		width: 50%;
+
+		h4 {
+			font-family: Poppins;
+			font-weight: 600;
+			line-height: 29px;
+			font-size: 15px;
+			letter-spacing: 0.07em;
+			color: #1A75EF;
+			margin-top: 60px;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.section--info__right {
+	float: left;
+	width: 50%;
+	height: 600px;
+	margin-top: 120px;
+
+	.input-name {
+		position: absolute;
+		width: 47%;
+		height: 53px;
+		background: #FFFFFF;
+		border: 1px solid #E1E1E1;
+		box-sizing: border-box;
+		padding-left: 40px;
+	}
+	.input-email {
+		position: absolute;
+		width: 47%;
+		height: 53px;
+		background: #FFFFFF;
+		border: 1px solid #E1E1E1;
+		box-sizing: border-box;
+		margin-top: 50px;
+		padding-left: 40px;
+	}
+	.input-textarea {
+		position: absolute;
+		width: 47%;
+		height: 188.83px;
+		padding-left: 40px;
+		padding-top: 20px;
+		background: #FFFFFF;
+		border: 1px solid #E1E1E1;
+		box-sizing: border-box;
+		margin-top: 100px;
+	}
+	input[type="submit"] {
+		width: 180px;
+		height: 53px;
+		background: #1A75EF;
+		border-radius: 100px;
+		margin-top: 290px;
+		margin-right: 40px;
+		float: right;
+		border: none;
+		font-family: Poppins;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 21px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.section--info {
+		height: auto;
+	}
+	.section--info__left {
+		width: 100%;
+		height: auto;
+		.info-left__city {
+			width: 35%;
+		}
+		.info-left__city:last-child {
+			margin-left: 30% !important;
+		}
+	}
+	.section--info__right {
+		width: 100%;
+		height: auto;
+		margin-bottom: 50px;
+		.input-name {
+			width: 90%;
+		}
+		.input-email {
+			width: 90%;
+		}
+		.input-textarea {
+			width: 90%;
+		}
+	}
+}
+@media screen and (max-width: 574px) {
+	.section--info__left {
+		.info-left__city {
+			width: 100%;
+		}
+		.info-left__city:last-child {
+			margin-left: 0% !important;
+		}
+	}
+}
+@media screen and (max-width: 319px) {
+	.section--info__right {
+		.input-name {
+			margin-left: -7px;
+		}
+		.input-email {
+			margin-left: -7px;
+		}
+		.input-textarea {
+			margin-left: -7px;
+		}
+	}
+}

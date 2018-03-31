@@ -1,0 +1,225 @@
+.footer {
+  width: 100%;
+  height: 590px;
+  position: absolute;
+}
+
+.footer-content {
+  width: 100%;
+  height: auto;
+  background-color: #1A1E21;
+}
+
+.footer-content-logo h1 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer-content-logo h1 span {
+  color: #1A75EF;
+}
+.footer-content-logo p {
+  font-family: Poppins;
+  line-height: 26px;
+  font-size: 14px;
+  color: #969696;
+  margin-top: 12px;
+}
+.footer-content-logo .footer-icon {
+  font-family: FontAwesome;
+  margin-top: 15px;
+}
+.footer-content-logo .footer-icon a {
+  color: #898989;
+}
+.footer-content-logo .footer-icon i {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.footer-content-info-icon {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-content-info-icon li {
+  color: #969696;
+}
+.footer-content-info-icon li i {
+  font-family: Pe-icon-7-stroke;
+  line-height: 26px;
+  margin-right: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #969696;
+}
+
+.footer-content-news .aside-post {
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+}
+.footer-content-news .aside-post img {
+  width: 65px;
+  height: 65px;
+  float: left;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.footer-content-news .aside-post img:hover {
+  opacity: 0.3;
+}
+
+.footer-content-news-title .name {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.footer-content-news-title .name:hover {
+  text-decoration: none;
+  color: #1A75EF;
+}
+.footer-content-news-title .time {
+  font-family: Poppins;
+  line-height: 21px;
+  font-size: 11px;
+  color: #808285;
+}
+
+.instagram-images img {
+  width: 95px;
+  height: 95px;
+  margin-top: 18px;
+  margin-right: 4px;
+  object-fit: cover;
+}
+.instagram-images img:hover {
+  opacity: 0.3;
+}
+.instagram-images img:nth-child(n+3) {
+  margin-top: 7px;
+}
+
+.footer-column {
+  width: 25%;
+  height: 435px;
+  float: left;
+  margin-top: 90px;
+}
+.footer-column .title {
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 29px;
+  font-size: 15px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-column .title {
+    font-size: 13px;
+  }
+
+  .footer-content-logo p {
+    font-size: 13px;
+  }
+  .footer-content-logo .footer-icon i {
+    font-size: 17px;
+  }
+
+  .footer-content-info-icon li {
+    font-size: 13px;
+  }
+  .footer-content-info-icon li i {
+    font-size: 19px;
+  }
+
+  .footer-content-news-title .name {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer-column {
+    width: 50%;
+    height: auto;
+  }
+  .footer-column .title {
+    font-size: 14px;
+  }
+
+  .footer-content-logo {
+    height: 223px;
+  }
+
+  .footer-content-logo p {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .footer-content-info-icon li {
+    font-size: 15px;
+  }
+
+  .footer-content-news-title .name {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer-column {
+    width: 100%;
+    margin-top: 42px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer-content-logo {
+    height: 293px;
+  }
+}
+.footer-copyright {
+  width: 100%;
+  height: 65px;
+  background-color: #15191F;
+}
+.footer-copyright p {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+  margin-left: 550px;
+  color: #808285;
+}
+
+@media screen and (max-width: 1170px) {
+  .footer-copyright p {
+    margin-left: 475px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer-copyright p {
+    margin-left: 409px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-copyright p {
+    margin-left: 294px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer-copyright p {
+    margin-left: 195px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer-copyright p {
+    margin-left: 59px;
+  }
+}

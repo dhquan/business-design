@@ -1,0 +1,29 @@
+.section--images {
+  width: 100%;
+  height: 485px;
+}
+.section--images .image {
+  width: 25%;
+  float: left;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .section--images {
+    height: 970px;
+  }
+  .section--images .image {
+    width: 50%;
+    height: 487px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .section--images {
+    height: 1948px;
+  }
+  .section--images .image {
+    width: 100%;
+    height: 487px;
+  }
+}

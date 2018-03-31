@@ -1,0 +1,55 @@
+.section--maps {
+	width: 100%;
+	height: 603px;
+	background-color: #EBEBEB;
+}
+.section--maps__left {
+	width: 50%;
+	height: 603px;
+	float: left;
+	.cd-faq-items {
+		float: left;
+		margin-top: 42px;
+		padding: 0;
+	}
+}
+.section--maps__right {
+	width: 50%;
+	height: 603px;
+	float: left;
+	iframe {
+		width: 93%;
+		height: 360px;
+		margin-right: 7%;
+		margin-top: 120px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.section--maps {
+		height: 873px;
+	}
+	.section--maps__left {
+		width: 100%;
+		height: 463px;
+		.ui-widget {
+			margin-top: 0px;
+		}
+	}
+	.section--maps__right {
+		width: 100%;
+		height: 410px;
+		iframe {
+			width: 85%;
+			margin-top: 17px;
+			margin-left: 5%;
+		}
+	}
+}
+@media screen and (max-width: 320px) {
+	.section--maps__left {
+		.ui-widget {
+			margin-left: 26px;
+		}
+	}
+}

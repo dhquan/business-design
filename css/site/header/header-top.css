@@ -1,0 +1,96 @@
+.header-top {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background: rgba(17, 17, 17, 0.8);
+}
+
+.header-top-left {
+  width: 133px;
+  height: 48px;
+  position: absolute;
+  top: 28px;
+}
+
+.header-info i {
+  position: absolute;
+  font-family: FontAwesome;
+  font-size: 24px;
+  margin-right: 17px;
+  color: #1A75EF;
+  top: 12px;
+}
+.header-info p {
+  position: absolute;
+  left: 33px;
+  font-family: Poppins;
+  line-height: 26px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 54px;
+  left: 639px;
+  top: 36px;
+}
+.logo h1 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.logo h1 span {
+  color: #1A75EF;
+}
+
+.header-top-right {
+  width: 333px;
+  height: 48px;
+  position: absolute;
+  top: 29px;
+  right: 103px;
+}
+.header-top-right div:nth-child(1) {
+  height: 48px;
+  float: left;
+}
+.header-top-right div:nth-child(2) {
+  width: 180px;
+  height: 48px;
+  position: absolute;
+  left: 200px;
+}
+.header-top-right div:nth-child(2):before {
+  width: 1px;
+  height: 30px;
+  background: #fff;
+  position: absolute;
+  top: 12px;
+  left: -38px;
+}
+
+@media screen and (max-width: 1280px) {
+  .logo {
+    left: 46%;
+  }
+
+  .header-top-right {
+    right: 71px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header-info {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    left: 43%;
+  }
+}
